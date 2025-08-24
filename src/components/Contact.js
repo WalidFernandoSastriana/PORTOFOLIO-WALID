@@ -4,14 +4,16 @@ export default function Contact() {
   return (
     <section id="contact" className="py-20 bg-slate-900 text-white text-center">
       <h2 className="text-4xl font-bold mb-12">📞 Contact Me</h2>
-      
+
       <div className="flex flex-col items-center space-y-4 mb-8">
         {/* Email */}
         <div className="flex items-center space-x-2">
           <HiOutlineMail size={24} className="text-blue-400" />
-          <p className="text-gray-400">walid.sastriana@binus.ac.id / walidfernando21@gmail.com</p>
+          <p className="text-gray-400">
+            walid.sastriana@binus.ac.id / walidfernando21@gmail.com
+          </p>
         </div>
-        
+
         {/* Phone */}
         <div className="flex items-center space-x-2">
           <HiOutlinePhone size={24} className="text-blue-400" />
