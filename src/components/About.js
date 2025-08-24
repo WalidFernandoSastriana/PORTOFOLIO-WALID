@@ -1,8 +1,10 @@
-// import Image from 'next/image'; // Jika menggunakan Next.js
-
 export default function About() {
   return (
-    <section id="about" className="py-20 bg-slate-900 text-white">
+    <section 
+      id="about" 
+      className="py-20 text-white" 
+      style={{ backgroundColor: "#0f172a" }}
+    >
       <div className="container mx-auto px-4">
         <h2 className="text-4xl font-bold mb-12 text-center">About Me</h2>
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
@@ -19,42 +21,31 @@ export default function About() {
           <div className="flex flex-col space-y-8">
             {/* Top Box: Main About Me Text */}
             <div className="bg-slate-800 p-8 rounded-xl shadow-lg">
-              <h3 className="text-2xl font-bold mb-4">
-                Hi, I'm Walid Fernando Sastriana 👋
-              </h3>
               <p className="text-gray-300 text-justify">
-                Halo! Nama saya Walid Fernando Sastriana. Saat ini saya adalah
-                seorang mahasiswa yang sedang mengejar gelar Sarjana Ilmu Komputer
-                di Universitas Bina Nusantara. Ketertarikan saya pada teknologi
-                komputer sejak kecil membawa saya pada perjalanan menarik menuju
-                dunia pengetahuan. Saya mengambil setiap kesempatan yang saya bisa
-                untuk mempelajari lebih dalam aspek-aspek menarik di bidang ini dan
-                mengembangkan lebih lanjut keterampilan dan pemahaman saya. Kami
-                juga aktif terlibat dalam berbagai kegiatan ekstrakurikuler seperti
-                organisasi Rohani Islami. Dalam proses pendidikan, saya selalu
-                berusaha memecahkan masalah yang kompleks dengan bekerja sama dengan
-                teman sekelas dan guru. Saya percaya kerja tim adalah kunci
-                kesuksesan dan saya suka bertukar ide, belajar dari orang lain,
-                dan membangun hal-hal hebat bersama. Selain akademisi, saya juga
-                mempunyai minat lain seperti fotografi. Saya percaya bahwa hobi juga
-                berperan penting dalam pengembangan diri dan kreativitas. Portofolio
-                ini saya buat untuk berbagi pengalaman, proyek, dan pencapaian yang
-                telah saya capai selama pendidikan. Jika Anda ingin berdiskusi
-                lebih lanjut atau bertukar pikiran, jangan ragu untuk menghubungi
-                kami kapan saja. Mari jelajahi dunia pengetahuan dan ciptakan
-                perubahan positif bersama-sama! Terima Kasih.
+                Hello! My name is Walid Fernando Sastriana. I am currently a student pursuing a Bachelor's 
+                degree in Computer Science at Bina Nusantara University. My interest in computer technology 
+                since childhood has led me on an exciting journey into the world of knowledge. I take every 
+                opportunity I can to delve deeper into the fascinating aspects of this field and further develop 
+                my skills and understanding. I am also actively involved in various extracurricular activities, 
+                such as the Islamic Spiritual Organization. Throughout my education, I always strive to solve 
+                complex problems by collaborating with my classmates and teachers. I believe teamwork is the 
+                key to success, and I enjoy exchanging ideas, learning from others, and building great things
+                together. Besides academics, I also have other interests, such as photography. I believe that
+                hobbies also play an important role in self-development and creativity. I created this portfolio
+                to share my experiences, projects, and achievements throughout my education. If you would like 
+                to discuss further or exchange ideas, please feel free to contact us anytime. Let's explore the world 
+                of knowledge and create positive change together! Thank you.
               </p>
             </div>
 
             {/* Bottom Box: Location */}
             <div className="bg-slate-800 p-8 rounded-xl shadow-lg relative overflow-hidden">
-              <h3 className="text-xl font-bold mb-2">Based</h3>
+              <h3 className="text-xl font-bold mb-2">Based in</h3>
               <p className="text-gray-300">
-                in Bojong Gede, West Java, Indonesia.
+                Bojong Gede, Bogor Regency, Indonesia.
               </p>
-              {/* Placeholder for the globe animation */}
               <div className="absolute bottom-0 right-0 w-32 h-32 opacity-20">
-                {/*  */}
+                {/* Globe animation placeholder */}
               </div>
             </div>
           </div>
@@ -63,37 +54,3 @@ export default function About() {
     </section>
   );
 }
-
-// export default function About() {
-//   return (
-//     <section id="about" className="py-20 bg-gray-100 text-center">
-//       <h2 className="text-3xl font-bold mb-6">About Me</h2>
-//       <p className="max-w-2xl mx-auto text-gray-600 text-justify">
-//         Halo! Nama saya Walid Fernando Sastriana. Saat ini saya adalah seorang
-//         mahasiswa yang sedang mengejar gelar Sarjana Ilmu Komputer di
-//         Universitas Bina Nusantara. Ketertarikan saya pada teknologi komputer
-//         sejak kecil membawa saya pada perjalanan menarik menuju dunia
-//         pengetahuan. Saya mengambil setiap kesempatan yang saya bisa untuk
-//         mempelajari lebih dalam aspek-aspek menarik di bidang ini dan
-//         mengembangkan lebih lanjut keterampilan dan pemahaman saya. Kami juga
-//         aktif terlibat dalam berbagai kegiatan ekstrakurikuler seperti
-//         organisasi Rohani Islami.
-//       </p>
-//       <p className="max-w-2xl mx-auto text-gray-600 text-justify">
-//         Dalam proses pendidikan, saya selalu berusaha memecahkan masalah yang
-//         kompleks dengan bekerja sama dengan teman sekelas dan guru. Saya percaya
-//         kerja tim adalah kunci kesuksesan dan saya suka bertukar ide, belajar
-//         dari orang lain, dan membangun hal-hal hebat bersama. Selain akademisi,
-//         saya juga mempunyai minat lain seperti fotografi. Saya percaya bahwa
-//         hobi juga berperan penting dalam pengembangan diri dan kreativitas.
-//       </p>
-//       <p className="max-w-2xl mx-auto text-gray-600 text-justify">
-//         Portofolio ini saya buat untuk berbagi pengalaman, proyek, dan
-//         pencapaian yang telah saya capai selama pendidikan. Jika Anda ingin
-//         berdiskusi lebih lanjut atau bertukar pikiran, jangan ragu untuk
-//         menghubungi kami kapan saja. Mari jelajahi dunia pengetahuan dan
-//         ciptakan perubahan positif bersama-sama! Terima Kasih.
-//       </p>
-//     </section>
-//   );
-// }

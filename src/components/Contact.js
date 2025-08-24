@@ -15,7 +15,7 @@ export default function Contact() {
         {/* Phone */}
         <div className="flex items-center space-x-2">
           <HiOutlinePhone size={24} className="text-blue-400" />
-          <p className="text-gray-400">Phone: +62</p>
+          <p className="text-gray-400">Phone: +62 812-1123-4690</p>
         </div>
       </div>
 

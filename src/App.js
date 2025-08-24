@@ -9,6 +9,7 @@ import Certificates from "./components/Certificates";
 import CV from "./components/CV";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import Activities from "./components/activities";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
         <Certificates />
         <CV />
         <Contact />
+        <Activities />
       </div>
       <Footer />
     </div>

@@ -5,7 +5,7 @@ export default function Experience() {
       role: "Certified Internship",
       place: "Bina Nusantara University - School of Computer Science",
       desc: [
-        "Bekerja dalam proyek bersama departemen School of Computer Science.",
+        "Working on a project with the School of Computer Science department.",
       ],
     },
     {
@@ -13,17 +13,16 @@ export default function Experience() {
       role: "Enrichment Programs Certified Specific Independent Study (Research Assistant)",
       place: "Bina Nusantara University - School of Computer Science",
       desc: [
-        "Melakukan studi independen untuk menganalisis pola regional gizi buruk pada bayi Indonesia menggunakan teknik pengelompokan untuk memberikan informasi intervensi gizi yang lebih tepat sasaran.",
-      ],
+        "Conducting an independent study to analyze regional patterns of malnutrition in Indonesian infants using clustering techniques to inform more targeted nutritional interventions.",      ],
     },
     {
       year: "Januari 2020 - Maret 2020",
       role: "Junior Aircraft Technician (Certified Internship)",
       place: "PT Garuda Maintenance Facility AeroAsia Tbk",
       desc: [
-        "Melakukan pemeriksaan rutin pada Airbus A330-200/300/900Neo serta Boeing 777-400/737-Max untuk memastikan kondisi optimal.",
-        "Mengidentifikasi dan memperbaiki masalah teknis pada avionik, sistem hidrolik, dan mesin.",
-        "Memastikan kepatuhan terhadap standar keselamatan penerbangan internasional dan regulasi perawatan.",
+        "Conducting routine inspections on Airbus A330-200/300/900Neo and Boeing 777-400/737-Max aircraft to ensure optimal condition.",
+        "Identifying and repairing technical issues with avionics, hydraulic systems, and engines.",
+        "Ensuring compliance with international aviation safety standards and maintenance regulations.",
       ],
     },
   ];
