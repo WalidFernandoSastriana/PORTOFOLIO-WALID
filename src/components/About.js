@@ -40,7 +40,7 @@ export default function About() {
 
             {/* Bottom Box: Location */}
             <div className="bg-slate-800 p-8 rounded-xl shadow-lg relative overflow-hidden">
-              <h3 className="text-xl font-bold mb-2">Based in</h3>
+              <h3 className="text-xl font-bold mb-2">📍Based in</h3>
               <p className="text-gray-300">
                 Bojong Gede, Bogor Regency, Indonesia.
               </p>

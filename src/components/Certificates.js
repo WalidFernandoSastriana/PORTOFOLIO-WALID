@@ -1,3 +1,4 @@
+import { desc } from "framer-motion/client";
 import { useState } from "react";
 
 export default function Certificates() {
@@ -9,6 +10,11 @@ export default function Certificates() {
     {
       title: "BNSP Certificate of Competence - Office Administration",
       image: "img/certificates/bnsp-office.png",
+    },
+    {
+      title:
+        "Certificate of Achievement – IT Bootcamp Program Front End Developer",
+      image: "img/certificates/ITBootcamp.png",
     },
     {
       title:

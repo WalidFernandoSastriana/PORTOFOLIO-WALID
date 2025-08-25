@@ -3,19 +3,52 @@ import { useState } from "react";
 export default function Activities() {
   const [selected, setSelected] = useState(null);
 
-  const activities = [
+  // Daftar lengkap semua kegiatan
+  const allActivities = [
     {
       title: "",
-      img: "",
+      img: "", // Pastikan path ini benar
+      description: "",
     },
     {
       title: "",
-      img: "",
-    },{
+      img: "", // Pastikan path ini benar
+      description: "",
+    },
+    {
       title: "",
-      img: "",
+      img: "", // Pastikan path ini benar
+      description: "",
+    },
+    {
+      title: "",
+      img: "", // Pastikan path ini benar
+      description: "",
+    },
+    {
+      title: "",
+      img: "", // Pastikan path ini benar
+      description: "",
+    },
+    {
+      title: "",
+      img: "", // Pastikan path ini benar
+      description: "",
+    },
+    {
+      title: "",
+      img: "", // Pastikan path ini benar
+      description: "",
+    },
+    {
+      title: "",
+      img: "", // Pastikan path ini benar
+      description: "",
     },
   ];
+
+  // Hanya ambil 3 kegiatan pertama untuk ditampilkan
+  const visibleActivities = allActivities.slice(0, 3);
 
   return (
     <section id="activities" className="py-20 bg-slate-900 text-white">
@@ -25,7 +58,7 @@ export default function Activities() {
 
       {/* Grid Galeri */}
       <div className="grid md:grid-cols-3 gap-6 px-6">
-        {activities.map((a, i) => (
+        {visibleActivities.map((a, i) => (
           <div
             key={i}
             className="bg-slate-800 rounded-xl shadow-lg overflow-hidden hover:scale-105 transition cursor-pointer"
@@ -43,6 +76,16 @@ export default function Activities() {
             </div>
           </div>
         ))}
+      </div>
+
+      {/* Tombol Lihat Selengkapnya */}
+      <div className="text-center mt-12">
+        <a
+          href="/all-activities" // Ganti dengan path halaman yang benar
+          className="bg-blue-600 text-white px-6 py-3 rounded-xl shadow-lg hover:bg-blue-700 transition duration-300"
+        >
+          Lihat Selengkapnya
+        </a>
       </div>
 
       {/* Modal Pop-up */}
@@ -70,6 +113,10 @@ export default function Activities() {
             <h3 className="text-2xl font-bold text-center text-white">
               {selected.title}
             </h3>
+            {/* Deskripsi (opsional) */}
+            {selected.description && (
+                <p className="text-gray-400 text-center mt-2">{selected.description}</p>
+            )}
           </div>
         </div>
       )}
