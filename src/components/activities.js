@@ -52,9 +52,7 @@ export default function Activities() {
 
   return (
     <section id="activities" className="py-20 bg-slate-900 text-white">
-      <h2 className="text-4xl font-bold text-center mb-12">
-        📸 My Activities
-      </h2>
+      <h2 className="text-4xl font-bold text-center mb-12">📸 My Activities</h2>
 
       {/* Grid Galeri */}
       <div className="grid md:grid-cols-3 gap-6 px-6">
@@ -115,7 +113,9 @@ export default function Activities() {
             </h3>
             {/* Deskripsi (opsional) */}
             {selected.description && (
-                <p className="text-gray-400 text-center mt-2">{selected.description}</p>
+              <p className="text-gray-400 text-center mt-2">
+                {selected.description}
+              </p>
             )}
           </div>
         </div>
