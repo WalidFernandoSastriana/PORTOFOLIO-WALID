@@ -5,7 +5,7 @@ export default function Certificates() {
   const certificates = [
     {
       title: "BNSP Certificate of Competence - Digital Marketing & Ai",
-      image: "/certificates/bnsp-digital-marketing-ai.png",
+      image: "img/certificates/bnsp-digital-marketing-ai.png",
     },
     {
       title: "BNSP Certificate of Competence - Office Administration",
