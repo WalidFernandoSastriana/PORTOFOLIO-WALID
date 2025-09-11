@@ -20,7 +20,7 @@ export default function Projects() {
         "This approach improved the classification accuracy of X-Ray images into two categories: fracture and non-fracture.",
         "Demonstrated that feature fusion at the late stage outperforms single-feature approaches.",
       ],
-      link: "#",
+      link: "",
       img: "img/Thesis.png",
     },
     {
@@ -67,7 +67,7 @@ export default function Projects() {
         "Built interactive components using the Laravel front-end framework.",
         "Developed prototypes with design tools such as Figma.",
       ],
-      link: "#",
+      link: "https://www.figma.com/design/4tJke98tWn5BAoINVAKT8y/WEB-PROGRAMMING?node-id=0-1&m=dev&t=vrIf9qzPYiAP0abk-1",
       img: "img/ticktake.png",
     },
     {
@@ -80,7 +80,7 @@ export default function Projects() {
       detail: [
         "Designed and developed interactive prototypes using Figma.",
       ],
-      link: "#",
+      link: "https://www.figma.com/design/kEluuLC68Jbz5SdYHnL1IG/PAWPALS?node-id=0-1&m=dev&t=fjqsWJCpPgC0SLFj-1",
       img: "img/pawpals.png",
     },
     {
@@ -96,7 +96,7 @@ export default function Projects() {
         "Documented all activities in photos and videos.",
         "Compiled a documentation report as an evaluation reference.",
       ],
-      link: "#",
+      link: "",
       img: "img/CBagama.png",
     },
   ];
