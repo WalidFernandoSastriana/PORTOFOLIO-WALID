@@ -6,19 +6,19 @@ export default function Activities() {
   // Daftar lengkap semua kegiatan
   const allActivities = [
     {
-      title: "",
-      img: "", // Pastikan path ini benar
-      description: "",
+      title: "Batik Air | PK-LUK | Airbus A320-214",
+      img: "img\activities\JP1.png",
+      description: "This photo was taken as part of my passion for photography and transportation, especially aviation. I captured the Batik Air Airbus A320 during its landing phase using the panning technique, which creates a blurred background to emphasize dynamic motion. Proper lighting settings also enhanced the clarity of the signature Batik livery of Indonesia, combined with the lively atmosphere of the airport.",
     },
     {
-      title: "",
-      img: "", // Pastikan path ini benar
-      description: "",
+      title: "Garuda Indonesia | PK-GHE | Airbus A330-941 Neo",
+      img: "img\activities\JP1.png",
+      description: "This photo captures the historic arrival of Garuda Indonesia’s Airbus A330-941neo (registration PK-GHE), the airline’s very first A330neo delivered directly from the manufacturer. This special moment highlights not only the sleek and modern design of the aircraft but also symbolizes the fleet renewal of Garuda Indonesia. With proper lighting and composition, the photograph emphasizes the aircraft’s details while preserving the unique atmosphere of its inaugural arrival in Indonesia.",
     },
     {
-      title: "",
-      img: "", // Pastikan path ini benar
-      description: "",
+      title: "Mass Rapid Transit (MRT) Jakarta | 0517 | Ratangga",
+      img: "img\activities\MRT.jpg", // Pastikan path ini benar
+      description: "This photo was captured as part of my interest in urban transportation. It shows an MRT Jakarta trainset 0517 heading towards Lebak Bulus Station. The frontal angle highlights the modern design of the train’s face, with its signature blue curve accent. Proper lighting enhances the body details, while the elevated track setting emphasizes the futuristic character of this mass transit system.",
     },
     {
       title: "",
