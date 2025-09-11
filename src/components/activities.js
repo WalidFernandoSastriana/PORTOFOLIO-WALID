@@ -12,7 +12,7 @@ export default function Activities() {
     },
     {
       title: "Garuda Indonesia | PK-GHE | Airbus A330-941 Neo",
-      img: "img/activities/JP1.png",
+      img: "img/activities/JP2.png",
       description: "This photo captures the historic arrival of Garuda Indonesia’s Airbus A330-941neo (registration PK-GHE), the airline’s very first A330neo delivered directly from the manufacturer. This special moment highlights not only the sleek and modern design of the aircraft but also symbolizes the fleet renewal of Garuda Indonesia. With proper lighting and composition, the photograph emphasizes the aircraft’s details while preserving the unique atmosphere of its inaugural arrival in Indonesia.",
     },
     {
