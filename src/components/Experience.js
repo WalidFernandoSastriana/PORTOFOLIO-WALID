@@ -1,6 +1,14 @@
 export default function Experience() {
   const experiences = [
     {
+      year: "September 2025 - Present",
+      role: "Junior Data Analyst",
+      place: "Kementerian Perhubungan Laut - Direktorat Jenderal Perhubungan Laut",
+      desc: [
+        "Conduct data collection, cleaning, and analysis of maritime transportation to support policy decisions, create dashboards, and provide insights for operational efficiency.",
+      ],
+    },
+    {
       year: "September 2024 - Februari 2025",
       role: "Certified Internship",
       place: "Bina Nusantara University - School of Computer Science",
