@@ -136,8 +136,8 @@ export default function Activities() {
     {
       title: "Tilawatil Qur'an",
       images: [
-        "img/activities/qori1.jpg",
         "img/activities/qori2.jpg",
+        "img/activities/qori1.jpg",
       ],
       description:
         "Performed Quran recitation during the joint prayer and Independence Day commemoration event at the Ministry of Transportation, Directorate General of Sea Transportation.",
