@@ -12,6 +12,10 @@ export default function Certificates() {
       image: "img/certificates/BNSP-ADM PERKANTORAN.png",
     },
     {
+      title:"Certificate International Conference Presentation - ICOCSETI 2025",
+      image: "img/certificates/Sertif-ICOBAR.png",
+    },
+    {
       title:
         "Certificate of Achievement – IT Bootcamp Program Front End Developer",
       image: "img/certificates/ITBootcamp.png",
