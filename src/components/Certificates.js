@@ -9,7 +9,7 @@ export default function Certificates() {
     },
     {
       title: "BNSP Certificate of Competence - Office Administration",
-      image: "img/certificates/bnsp-office.png",
+      image: "img/certificates/BNSP-DIGITALMARKETING.jpg",
     },
     {
       title:
