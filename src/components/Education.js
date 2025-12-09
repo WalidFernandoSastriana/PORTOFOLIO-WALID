@@ -14,7 +14,7 @@ export default function Education() {
       logo: "/img/smk-penerbangan-logo.png",
     },
     {
-      year: "2021 - Sekarang",
+      year: "2021 - 2025",
       place: "Universitas Bina Nusantara",
       desc: "S1 - School of Computer Science",
       logo: "/img/binus-logo.png",

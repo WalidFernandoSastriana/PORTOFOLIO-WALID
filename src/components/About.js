@@ -22,19 +22,12 @@ export default function About() {
             {/* Top Box: Main About Me Text */}
             <div className="bg-slate-800 p-8 rounded-xl shadow-lg">
               <p className="text-gray-300 text-justify">
-                Hello! My name is Walid Fernando Sastriana. I am currently a student pursuing a Bachelor's 
-                degree in Computer Science at Bina Nusantara University. My interest in computer technology 
-                since childhood has led me on an exciting journey into the world of knowledge. I take every 
-                opportunity I can to delve deeper into the fascinating aspects of this field and further develop 
-                my skills and understanding. I am also actively involved in various extracurricular activities, 
-                such as the Islamic Spiritual Organization. Throughout my education, I always strive to solve 
-                complex problems by collaborating with my classmates and teachers. I believe teamwork is the 
-                key to success, and I enjoy exchanging ideas, learning from others, and building great things
-                together. Besides academics, I also have other interests, such as photography. I believe that
-                hobbies also play an important role in self-development and creativity. I created this portfolio
-                to share my experiences, projects, and achievements throughout my education. If you would like 
-                to discuss further or exchange ideas, please feel free to contact us anytime. Let's explore the world 
-                of knowledge and create positive change together! Thank you.
+                Hello! My name is Walid Fernando Sastriana. I am a fresh graduate with a Bachelor's degree in Computer Science from Bina Nusantara University. My interest in computer technology since childhood has guided me through an exciting academic journey, allowing me to continuously deepen my knowledge, explore various aspects of technology, and strengthen my skills along the way.
+                I am currently working as a contract employee at the Directorate General of Sea Transportation, Ministry of Transportation of the Republic of Indonesia, serving as a Data Processing Staff. In this role, I am responsible for supporting data management and digital information processes within the organization. This position allows me to apply the knowledge I gained during my studies to real-world scenarios while further developing my professional experience in data processing and information systems.
+                During my time in university, I was actively involved in several extracurricular activities, including the Islamic Spiritual Organization, where I learned the importance of teamwork, collaboration, and collective problem-solving. I enjoy exchanging insights, learning from others, and working together to build meaningful solutions.
+                Beyond the professional and academic environment, I also have a strong interest in photography, which I believe plays an important role in creativity and personal growth. I created this portfolio to share my journey, projects, and achievements.
+                If you would like to connect, collaborate, or share ideas, please feel free to reach out anytime. Let's explore opportunities and create positive change together!
+                Thank you.
               </p>
             </div>
 

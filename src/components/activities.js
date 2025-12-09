@@ -125,6 +125,7 @@
 // }
 
 
+import { title } from "framer-motion/client";
 import { useState } from "react";
 
 export default function Activities() {
