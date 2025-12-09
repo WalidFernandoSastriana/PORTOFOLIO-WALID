@@ -145,7 +145,7 @@ export default function Activities() {
     },
     {
       title: "Batik Air | PK-LUK | Airbus A320-214",
-      images: ["img/activities/JP1.png"],
+      images: ["/img/MagangGmf.jpg"],
       description:
         "This photo was taken as part of my passion for photography and transportation, especially aviation. I captured the Batik Air Airbus A320 during its landing phase using the panning technique, which creates a blurred background to emphasize dynamic motion.",
     },
