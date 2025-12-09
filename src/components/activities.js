@@ -144,10 +144,10 @@ export default function Activities() {
         "Performed Quran recitation during the joint prayer and Independence Day commemoration event at the Ministry of Transportation, Directorate General of Sea Transportation.",
     },
     {
-      title: "Batik Air | PK-LUK | Airbus A320-214",
+      title: "Internship",
       images: ["/img/MagangGmf.jpg"],
       description:
-        "This photo was taken as part of my passion for photography and transportation, especially aviation. I captured the Batik Air Airbus A320 during its landing phase using the panning technique, which creates a blurred background to emphasize dynamic motion.",
+        "weekly check Aircraft Airbus A330-900Neo",
     },
     {
       title: "Garuda Indonesia | PK-GHE | Airbus A330-941 Neo",
