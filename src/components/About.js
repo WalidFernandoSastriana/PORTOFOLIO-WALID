@@ -11,7 +11,7 @@ export default function About() {
           {/* Left Column: Image */}
           <div className="rounded-xl overflow-hidden shadow-lg">
             <img 
-              src="img/walid.png" 
+              src="img/wisuda.jpg" 
               alt="Walid Fernando Sastriana" 
               className="w-full h-full object-cover" 
             />
