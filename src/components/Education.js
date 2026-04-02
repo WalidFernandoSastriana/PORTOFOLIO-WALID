@@ -21,7 +21,7 @@ export default function Education() {
     },
     {
       year: "2026 - 2028",
-      place: "Universitas ???",
+      place: "??? ???",
       desc: "S2 - ???",
       logo: "/img/",
     },
