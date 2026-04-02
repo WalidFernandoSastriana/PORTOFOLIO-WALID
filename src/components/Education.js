@@ -19,6 +19,12 @@ export default function Education() {
       desc: "S1 - School of Computer Science",
       logo: "/img/binus-logo.png",
     },
+    {
+      year: "2026 - 2028",
+      place: "Universitas ???",
+      desc: "S2 - ???",
+      logo: "/img/",
+    },
   ];
 
   return (
