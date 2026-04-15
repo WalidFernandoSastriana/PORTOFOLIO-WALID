@@ -22,7 +22,7 @@ export default function Education() {
     {
       year: "2026 - 2028",
       place: "Universitas/Institut/Sekolah Tinggi ???",
-      desc: "S2 - ???",
+      desc: "S2 - Magister ???",
       logo: "/img/",
     },
   ];
