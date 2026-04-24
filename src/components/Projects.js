@@ -5,7 +5,7 @@ export default function Projects() {
 
   const projects = [
     {
-      title: "Thesis Scientific Article",
+      title: "Thesis Scientific Article (Scopus Indexed)",
       year: "April 2025 - August 2025",
       location: "Binus University",
       role: "Student",

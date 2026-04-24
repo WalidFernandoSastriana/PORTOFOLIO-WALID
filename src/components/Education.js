@@ -16,14 +16,14 @@ export default function Education() {
     {
       year: "2021 - 2025",
       place: "Universitas Bina Nusantara",
-      desc: "S1 - School of Computer Science",
+      desc: "S1 - School of Computer Science (S.Kom)",
       logo: "/img/binus-logo.png",
     },
     {
-      year: "2026 - 2028",
-      place: "Universitas/Institut/Sekolah Tinggi ???",
-      desc: "S2 - Magister ???",
-      logo: "/img/",
+      year: "2026 - present",
+      place: "Institut STIAMI Jakarta",
+      desc: "S2 - Magister Administrasi (M.A)",
+      logo: "/img/stiami.png",
     },
   ];
 
