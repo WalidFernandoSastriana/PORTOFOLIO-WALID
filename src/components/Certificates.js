@@ -12,7 +12,7 @@ export default function Certificates() {
       image: "img/certificates/BNSP-ADM PERKANTORAN.png",
     },
     {
-      title:"Certificate International Conference Presentation - ICOBAR 2025 (SCOPUS)",
+      title:"Certificate International Conference Presentation - ICOBAR 2025 (SCOPUS Indexed)",
       image: "img/certificates/Sertif-ICOBAR.png",
     },
     {
