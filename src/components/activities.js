@@ -135,29 +135,42 @@ export default function Activities() {
       title: "Tilawatil Qur'an",
       month: "March",
       year: "2026",
-      images: ["img/activities/DSC00890.jpg", "img/activities/DSC00888.jpg", "img/activities/DSC00848.jpg", "img/activities/DSC00833.jpg",],
-      description: "Performed Quran recitation during the 'Santunan Anak Yatim' and 'Buka Puasa Bersama' event organized by the Bagian Organisasi dan Tata Laksana, Secretariat of the Directorate General of Sea Transportation.",
+      images: [
+        "img/activities/DSC00890.jpg",
+        "img/activities/DSC00888.jpg",
+        "img/activities/DSC00848.jpg",
+        "img/activities/DSC00833.jpg",
+      ],
+      description:
+        "Performed Quran recitation during the 'Santunan Anak Yatim' and 'Buka Puasa Bersama' event organized by the Bagian Organisasi dan Tata Laksana, Secretariat of the Directorate General of Sea Transportation.",
     },
     {
       title: "Virtual Event Technical Coordinator",
       month: "February",
       year: "2026",
-      images: ["img/activities/op.png", "img/activities/op2.png", "img/activities/op3.png"], // Ensure you update the image path
-      description: "Served as the lead Zoom Meeting Operator for a high-level National Health Seminar featuring the Spouse of the Vice Minister of Transportation. Managed live streaming, participant coordination, and technical troubleshooting to ensure a seamless virtual experience for the Ministry's executive leadership and Dharma Wanita Persatuan members.",
+      images: [
+        "img/activities/op.png",
+        "img/activities/op2.png",
+        "img/activities/op3.png",
+      ], // Ensure you update the image path
+      description:
+        "Served as the lead Zoom Meeting Operator for a high-level National Health Seminar featuring the Spouse of the Vice Minister of Transportation. Managed live streaming, participant coordination, and technical troubleshooting to ensure a seamless virtual experience for the Ministry's executive leadership and Dharma Wanita Persatuan members.",
     },
     {
       title: "Socialization of Stranas PK Reporting",
       month: "Desember",
       year: "2025",
       images: ["img/activities/cilacap.jpeg"], // Pastikan mengganti path gambar jika sudah ada
-      description: "Coordinated the socialization di KSOP Kelas II Cilacap and data collection for the National Anti-Corruption Strategy (Stranas PK) reporting within the Directorate General of Sea Transportation. This involved ensuring data compliance and integrity for the prevention of corruption in maritime services and port administration.",
+      description:
+        "Coordinated the socialization di KSOP Kelas II Cilacap and data collection for the National Anti-Corruption Strategy (Stranas PK) reporting within the Directorate General of Sea Transportation. This involved ensuring data compliance and integrity for the prevention of corruption in maritime services and port administration.",
     },
     {
       title: "Tilawatil Qur'an",
       month: "August",
       year: "2025",
       images: ["img/activities/qori2.jpg", "img/activities/qori1.jpg"],
-      description: "Performed Quran recitation during the joint prayer and Independence Day commemoration event at the Ministry of Transportation.",
+      description:
+        "Performed Quran recitation during the joint prayer and Independence Day commemoration event at the Ministry of Transportation.",
     },
     {
       title: "Internship PT GMF AeroAsia Tbk.",
@@ -166,13 +179,14 @@ export default function Activities() {
       images: ["/img/MagangGmf.jpg"],
       description: "weekly check Aircraft Airbus A330-900Neo",
     },
-    
   ];
 
   const handlePrev = (e) => {
     e.stopPropagation();
     if (!selected) return;
-    setCurrentIndex((prev) => (prev - 1 + selected.images.length) % selected.images.length);
+    setCurrentIndex(
+      (prev) => (prev - 1 + selected.images.length) % selected.images.length,
+    );
   };
 
   const handleNext = (e) => {
@@ -206,9 +220,7 @@ export default function Activities() {
                 />
               </div>
               <div className="p-5 flex flex-col flex-grow">
-                <h3 className="font-bold text-lg leading-tight">
-                  {a.title}
-                </h3>
+                <h3 className="font-bold text-lg leading-tight">{a.title}</h3>
                 {/* Menampilkan Bulan dan Tahun */}
                 <p className="text-blue-400 text-sm mt-2 font-medium">
                   {a.month} {a.year}
@@ -221,11 +233,11 @@ export default function Activities() {
 
       {/* Modal Pop-up */}
       {selected && (
-        <div 
+        <div
           className="fixed inset-0 bg-black bg-opacity-90 flex items-center justify-center z-50 p-4 md:p-10"
           onClick={() => setSelected(null)}
         >
-          <div 
+          <div
             className="bg-slate-800 rounded-2xl shadow-2xl max-w-4xl w-full p-4 md:p-8 relative"
             onClick={(e) => e.stopPropagation()}
           >
@@ -242,7 +254,7 @@ export default function Activities() {
                 alt={selected.title}
                 className="w-full max-h-[60vh] object-contain rounded-lg"
               />
-              
+
               {selected.images.length > 1 && (
                 <>
                   <button
