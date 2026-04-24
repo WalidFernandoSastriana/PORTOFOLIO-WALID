@@ -5,11 +5,15 @@ export default function Certificates() {
   const certificates = [
     {
       title: "BNSP Certificate of Competence - Digital Marketing & Ai",
-      image: "img/certificates/bnsp-digital-marketing-ai.png",
+      image: "img/certificates/BNSP-DIGITALMARKETING.jpg",
     },
     {
       title: "BNSP Certificate of Competence - Office Administration",
-      image: "img/certificates/bnsp-office.png",
+      image: "img/certificates/BNSP-ADM PERKANTORAN.png",
+    },
+    {
+      title:"Certificate International Conference Presentation - ICOBAR 2025 (SCOPUS)",
+      image: "img/certificates/Sertif-ICOBAR.png",
     },
     {
       title:
