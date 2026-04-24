@@ -22,7 +22,7 @@ export default function Certificates() {
     },
     {
       title:
-        "Internship Certificate - Garuda Maintenance Facility AeroAsia TBK.",
+        "Internship Certificate - PT. Garuda Maintenance Facility AeroAsia TBK.",
       image: "img/certificates/SKGMF.png",
     },
     {
